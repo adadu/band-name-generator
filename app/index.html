@@ -12,31 +12,39 @@
     </h2>
 
     <button id="name">GET BAND NAME</button>
+    <button id="fave-btn">SAVE FAVORITE</button>
+
+    <div id="banderly">
+    <p>Your band name:</p>
     <p>
-      Your band name:
-      <span id="adjective"></span>&nbsp;<span id="verb"></span>&nbsp;<span id="noun"></span>
+      <div id="adjVerbNoun">
+        <span id="adjective"></span>&nbsp;<span id="verb"></span>&nbsp;<span id="noun"></span>
+      </div>
     </p>
+    <p>Favorite:</p>
+    <p><span id="fave"></span></p>
+    </div>
 
-    <h3>Submit your own words!</h3>
+    <div id="centerForm">
     <form id="submitWords">
-       <label for="user-adjective">Give us an adjective:</label>
-       <input type="text" name="adjective" id="user-adjective">
-       <input type="submit" value="Submit Words"><br />
+    <h3>Submit your own words!</h3>
+       <label for="user-adjective" class="label">Give us an adjective:</label>
+       <input type="text" name="adjective" placeholder="Adjective" id="user-adjective"><br />
 
-      <label for="user-verb">Give us an verb:</label>
-       <input type="text" name="verb" id="user-verb">
-       <input type="submit" value="Submit Words"><br />
+      <label for="user-verb" class="label">Give us an verb:</label>
+       <input type="text" name="verb" placeholder="Verb" id="user-verb"><br />
 
-       <label for="user-noun">Give us an noun:</label>
-       <input type="text" name="noun" id="user-noun">
-       <input type="submit" value="Submit Words">
+       <label for="user-noun" class="label">Give us an noun:</label>
+       <input type="text" name="noun" placeholder="Noun" id="user-noun">
+       <input type="submit" value="Submit Words" id="submit-btn">
     </form>
-
+    </div>
+    <p id="faveRes"></p>
     <p id="adjectiveRes"></p>
     <p id="verbRes"></p>
     <p id="nounRes"></p>
   </div>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="/script.js"></script>
   </body>
 </html>
