@@ -1,0 +1,152 @@
+body {
+  font:normal 16px;
+  font-family:  'Raleway', sans-serif;
+  background: #FAFAFA;
+  text-align: center;
+}
+
+#wrapper {
+  background-color: #F0F0F0;
+  padding:20px;
+  margin: 0px auto;
+  width: 600px;
+  border:3px solid #000;
+  border-radius: 20px;
+}
+
+#greet {
+  text-align: center;
+  font-family:  'Raleway', sans-serif;
+  font-variant: 800 bold;
+  font-size: 30px;
+}
+
+#adjective, #noun, #verb {
+  font-family: 'Raleway', sans-serif;
+  padding:2px;
+  margin: 0;
+  font-size: 30px;
+  color:#000;
+  font-weight: 800;
+}
+
+#fave {
+  font-family: 'Raleway', sans-serif;
+  padding:5px;
+  margin: 0;
+  font-size: 20px;
+  color:#000;
+  font-weight: 800;
+}
+
+#banderly {
+
+  width: 450px;
+  border-top: 1px solid #000;
+  border-right: 1px solid #000;
+  border-left: 1px solid #000;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  text-align: center;
+  background: #3cc;
+  margin:auto;
+}
+
+#banderly p {
+  margin:0;
+  padding:5px;
+}
+
+#name {
+  height: 60px;
+  width:200px;
+  background-color: #069;
+  border:1px solid #000;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  color:#fff;
+  text-align: center;
+  text-decoration: none;
+  border-radius:10px;
+  margin:20px;
+}
+
+#name:hover {
+  background-color: #80B2CC;
+  color:#fff;
+}
+
+#submit-btn {
+  height: 30px;
+  width:120px;
+  background-color: #069;
+  border:1px solid #000;
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  color:#fff;
+  text-decoration: none;
+  border-radius:10px;
+  margin-top: 15px;
+}
+
+#submit-btn:hover {
+  background-color: #80B2CC;
+  color:#fff;
+}
+
+#fave-btn {
+  height: 40px;
+  width:130px;
+  background-color: #f30;
+  border:1px solid #000;
+  font-family: 'Raleway', sans-serif;
+  font-size: 12px;
+  color:#fff;
+  text-decoration: none;
+  border-radius:10px;
+  margin-top: 15px;
+}
+
+#fave-btn:hover {
+  background-color: #FF8566;
+  color:#fff;
+}
+
+#submitWords {
+  text-align: left;
+  width:430px;
+  margin:auto;
+  background-color: #ccc;
+  padding: 10px;
+  border-bottom: 1px solid #000;
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  margin-top: 0px;
+}
+
+#submit-btn {
+  text-align: center;
+}
+
+#centerForm {
+  text-align: center;
+  margin:0;
+  padding: 0;
+}
+
+#user-adjective, #user-verb, #user-noun {
+  height:30px;
+  width:250px;
+  font-size: 14px;
+}
+
+.label {
+  display:inline-block;
+  width:165px;
+}
+
+h2 {
+  padding-top: 0px;
+}
